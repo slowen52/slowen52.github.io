@@ -1,0 +1,76 @@
+#title{
+    text-align: center;
+    font: 40px Monaco;
+    color: darkslategray;
+}
+
+.text{
+    text-align: center;
+    font: 20px Monaco;
+    color: darkslategray;
+}
+
+nav {
+    text-align: center;
+    background-color: darkslategray;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar li {
+    display: inline;
+    padding: 30px;
+}
+
+.navbar a {
+    color: lightblue;
+    text-decoration: none;
+    font: 20px Monaco;
+}
+
+#home {
+    background-color: #EEEEEE; 
+    border-bottom:5px solid lightblue;
+    border-radius: 5px;
+    height: 90px;
+    padding: 50px 20px;
+    
+}
+#about {
+    background-color: #EEEEEE;
+    height: 150px;
+    padding: 80px 20px;
+    border-bottom: 10px solid lightblue;
+}
+#body{
+    text-align: center;
+    padding: 0px 300px
+}
+#photos {
+    background-color: #EEEEEE;
+    height: 350px;
+    padding: 80px 80px;
+    border-bottom: 10px solid lightblue;
+    
+}
+
+.gallery{
+    width: 25%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    float: left;
+    margin-left: 80px; 
+    
+}
+#container{
+text-align: center;
+padding: 10px 0px;
+}
+
+#quote {
+    background-color: #EEEEEE;
+    height: 300px;
+    padding: 80px 20px; 
+    border-bottom: 10px solid white;
+}
