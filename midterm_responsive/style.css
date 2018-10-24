@@ -45,6 +45,9 @@ nav {
     z-index: 1;
     
 }
+.navbar ul {
+    padding: 0px;
+}
 .navbar li {
     display: inline;
     padding: 50px;
@@ -72,6 +75,13 @@ nav {
     .navbar a{
         font-size: 20px;
     }
+    #text-overlay{
+    font-size: 30px;
+    }
+    
+    #about{
+        padding: 50px 0px;
+    }
     
 }
 @media only screen and (max-width: 730px){
@@ -81,18 +91,30 @@ nav {
     .navbar a {
         font-size: 18px;
     }
+    
+    #text-overlay {
+        font-size: 25px;
+    }
+    #about{
+        padding: 50px 0px;
+    }
 }
 
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 480px){
+    nav{
+        position: relative;
+    }
     .navbar li{
         display: block;
         padding: 20px;
         margin: 0;
     }
+        #about {
+       padding: 20px 0px;
+    }
 }
 /*About section*/
 #about{
-    padding: 50px 0px;
     height: 1000px;
     width: inherit;
     text-align: center;
@@ -110,7 +132,6 @@ div.goals{
 
 #text-overlay{
     width: 90%;
-    font-size: 30px;
     font-family:'Planquin', sans-serif;
     background-color: #F2F6FA;
     color: #790BA3;
