@@ -1,0 +1,251 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.header {
+    width: 100%;
+    background-image: url(elissa%20laying%20out.JPG);
+    height: 300px;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    
+}
+.header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    margin: 0;
+    color: #790BA3;
+    background-color: #F2F6FA;
+    opacity: .8;
+
+}
+h3 {
+    font-size: 25px;
+    font-family: 'Planquin', sans-serif;
+}
+h2 {
+    font-size: 30px;
+    font-family: 'Planquin', sans-serif;
+}
+h1{
+  font-family: 'Planquin', sans-serif;  
+}
+
+nav {
+    text-align: center;
+    background-color: #2F0F3B;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+    
+}
+.navbar li {
+    display: inline;
+    padding: 50px;
+        
+}
+
+.navbar a {
+    color: #F2F6FA;
+    text-decoration: none;
+    font-family: 'Planquin', sans-serif;
+}
+
+.navbar li:hover{
+    background-color:#790BA3 ;
+}
+
+/*
+.content_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+*/
+@media only screen and (min-width: 660px){
+    .navbar a{
+        font-size: 20px;
+    }
+    
+}
+@media only screen and (max-width: 660px){
+    .navbar li {
+        padding: 20px
+    }
+    .navbar a {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 380px){
+    .navbar li{
+        display: block;
+        padding: 20px;
+        margin: 0;
+    }
+}
+/*About section*/
+#about{
+    padding: 50px 0px;
+    height: 1000px;
+    width: inherit;
+    text-align: center;
+  
+
+}
+div.goals{
+    background-image: url(femmes%20team%20photo.jpeg);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    height: 300px;
+    width: 100%;
+}
+
+#text-overlay{
+    width: 90%;
+    font-size: 30px;
+    font-family:'Planquin', sans-serif;
+    background-color: #F2F6FA;
+    color: #790BA3;
+    opacity: .7;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+div.leadership_container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.headshot{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin: 0px 50px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 80%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+    font-family: 'Planquin', sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+.headshot:hover .overlay {
+  opacity: 1;
+
+}
+.coaches_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.captains_container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/*Schedule section*/
+#schedule{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 600px;
+    text-align: center;
+
+}
+div.tourney{
+    background-image: url(femmes%20tournament.jpg);
+    opacity: 0.9;
+    background-position:center top;
+    background-size: cover;
+    position: relative;
+    height: 320px;
+    width: 
+}
+
+#tourney_overlay{
+    font-size: 30px;
+    position: relative;
+    top: 30%;
+    left: 50%;
+    color:#790BA3;
+    background-color: #F2F6FA;
+    transform: translate(-50%, -50%); 
+}
+#schedule ul li {
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+    font-family: 'Planquin', sans-serif;
+    margin-right: 50px;
+}
+
+#Contact {
+    height: 200px;
+    text-align: center;
+    background-color: #2F0F3B;
+    color: #F2F6FA;
+    padding-top: 2px;
+
+}
+
+/*Social media Icons*/
+.fa {
+    display: inline-block;
+    position: relative;
+    font: 20px;
+  padding: 20px;
+  width: 20px;
+height: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 20px 20px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #790BA3;
+  color: white;
+}
+
+.fa-twitter {
+  background: #790BA3;
+  color: white;
+}
+
+
+.fa-instagram {
+  background: #790BA3;
+  color: white;
+}
