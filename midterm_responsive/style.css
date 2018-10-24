@@ -68,13 +68,13 @@ nav {
     justify-content: center
 }
 */
-@media only screen and (min-width: 660px){
+@media only screen and (min-width: 730px){
     .navbar a{
         font-size: 20px;
     }
     
 }
-@media only screen and (max-width: 660px){
+@media only screen and (max-width: 730px){
     .navbar li {
         padding: 20px
     }
@@ -83,7 +83,7 @@ nav {
     }
 }
 
-@media only screen and (max-width: 380px){
+@media only screen and (max-width: 450px){
     .navbar li{
         display: block;
         padding: 20px;
