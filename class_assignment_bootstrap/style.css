@@ -1,0 +1,25 @@
+#nav_text_page{
+    color: #FFF431;
+}
+
+.nav_text{
+    color:white;
+}
+
+#tagline{
+    padding: 20px;
+    font-style: italic
+}
+
+#space{
+    margin: 35px;
+}
+
+#button{
+    background-color: #FFF431;
+    color: black;
+}
+
+#bio{
+    margin: 30px;
+}
