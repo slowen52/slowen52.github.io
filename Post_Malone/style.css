@@ -23,3 +23,25 @@
 #bio{
     margin: 30px;
 }
+
+.nav_text:hover{
+    color: #FFF431;
+}
+
+#title{
+    color: rgb( 53, 68, 63);
+ 
+/*    font-size: 45px;*/
+}
+
+
+#title:hover{
+    text-decoration: none;
+}
+
+#header{
+ background-color: #FFF431;
+    margin: 0px;
+    height: 55px;
+
+}
